@@ -36,7 +36,7 @@ if __name__ == '__main__':
         if task['completed'] is True:
             finished_tasks += 1
 
-    print("Employee {} is done with tasks {}/{}: ".format(user_response,
+    print("Employee {} is done with tasks({}/{}):".format(user_response,
           finished_tasks, total_tasks))
 
     for task in api_response:
