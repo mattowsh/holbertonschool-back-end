@@ -8,9 +8,9 @@ The script must accept an integer as a parameter, which is the employee ID.
 Format: "USER_ID","USERNAME","TASK_COMPLETED_STATUS","TASK_TITLE"
 File name: USER_ID.csv
 """
+import csv
 import requests
 import sys
-import csv
 
 if __name__ == '__main__':
 
