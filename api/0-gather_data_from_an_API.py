@@ -6,7 +6,6 @@ ID, returns information about his/her TO-DO list progress.
 The script must accept an integer as a parameter, which is the employee ID.
 """
 import requests
-import json
 import sys
 
 if __name__ == '__main__':
